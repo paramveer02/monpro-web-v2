@@ -2,12 +2,12 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import BulletList from "@/components/ui/BulletList";
 
 const AUDIENCE = [
-  "\u20B91\u201320 Cr D2C brands",
+  "₹1–20 Cr/yr Shopify brands",
   "High COD dependency",
-  "Growing Instagram traffic",
+  "Growing paid + organic demand",
   "Manual WhatsApp workflows",
   "Fragmented backend operations",
-  "Founders stuck in operations",
+  "Founder stuck in daily ops",
 ];
 
 export default function WhoThisIsFor() {

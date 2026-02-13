@@ -2,10 +2,10 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import BulletList from "@/components/ui/BulletList";
 
 const PROBLEMS = [
-  "COD RTO eating 15\u201330% of profits",
-  "Manual verification draining team bandwidth",
-  "Automation tools without logic",
-  "Customer support chaos",
+  "COD RTO quietly eating 15–30% of revenue",
+  "Manual COD verification draining team bandwidth",
+  "Disconnected tools without system logicc",
+  "Support tickets escalating due to backend gaps",
   "No backend visibility",
   "Founders reacting instead of operating",
 ];

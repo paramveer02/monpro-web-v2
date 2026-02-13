@@ -11,12 +11,12 @@ export default function FinalCTA() {
           </h2>
 
           <p className="text-text-secondary text-sm sm:text-base mb-8">
-            30-minute call. Clear diagnosis. No cost. No obligation.
+            30-minute backend diagnosis. No cost. No obligation.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
             <Button variant="primary" href="#get-started">
-              Get Free Audit
+              Book Your Free Backend Audit
             </Button>
             <Button variant="secondary" href="#contact">
               Contact

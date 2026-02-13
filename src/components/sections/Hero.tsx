@@ -8,7 +8,8 @@ export default function Hero() {
       <div
         className="absolute top-0 left-0 w-[min(600px,100vw)] h-[min(600px,100vh)] opacity-[0.04] pointer-events-none overflow-hidden"
         style={{
-          background: "radial-gradient(circle at 0% 0%, #38BDF8, transparent 60%)",
+          background:
+            "radial-gradient(circle at 0% 0%, #38BDF8, transparent 60%)",
         }}
         aria-hidden="true"
       />
@@ -18,7 +19,7 @@ export default function Hero() {
           {/* Left — Copy */}
           <div className="md:col-span-3">
             <p className="text-accent text-xs font-mono uppercase tracking-[0.2em] mb-4 sm:mb-6">
-              Backend Systems Consulting
+              SHOPIFY OPERATIONS SYSTEMS
             </p>
 
             <h1 className="text-display-mobile sm:text-display-sm md:text-display text-text-primary font-bold mb-4 sm:mb-6">
@@ -27,16 +28,19 @@ export default function Hero() {
             </h1>
 
             <p className="text-text-secondary text-base sm:text-lg md:text-xl leading-relaxed max-w-xl mb-8 sm:mb-10">
-              I design AI-driven backend systems for Shopify fashion brands that
-              remove revenue leaks, manual chaos, and operational bottlenecks.
+              I build backend systems for Shopify fashion brands to reduce COD
+              losses, prevent revenue leaks, and remove manual ops.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Button variant="primary" href="#get-started">
-                Get Free Audit
+              <Button
+                variant="primary"
+                href="https://calendly.com/paramvir-marwah/30min"
+              >
+                Book Your Free Backend Audit
               </Button>
               <Button variant="secondary" href="#systems">
-                View Systems
+                See the Systems
               </Button>
             </div>
           </div>
@@ -45,7 +49,7 @@ export default function Hero() {
           <div className="hidden sm:flex md:col-span-2 justify-center md:justify-end">
             <PortraitPlaceholder
               name="Paramveer Marwah"
-              subtitle="AI Systems Architect for Shopify"
+              subtitle="Shopify Ops Systems Architect"
               size="lg"
             />
           </div>

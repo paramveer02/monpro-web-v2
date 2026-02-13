@@ -13,15 +13,15 @@ const SYSTEMS: SystemBlock[] = [
     title: "COD Verification That Runs Itself",
     bullets: [
       "WhatsApp confirmation flows",
-      "Fraud filtering logic",
-      "Real-time Shopify tagging",
+      "RTO risk filtering logic",
+      "Real-time order tagging in Shopify",
     ],
   },
   {
     number: "02",
     title: "Find Where You\u2019re Losing Money",
     bullets: [
-      "Order lifecycle tracking",
+      "End-to-end order lifecycle tracking",
       "RTO pattern analysis",
       "Automated alerts",
     ],
@@ -30,7 +30,7 @@ const SYSTEMS: SystemBlock[] = [
     number: "03",
     title: "Operations on Autopilot",
     bullets: [
-      "n8n + Shopify API integrations",
+      "Custom workflow automation (Shopify + WhatsApp + CRM)",
       "Order state management",
       "Backend workflows",
     ],
@@ -39,7 +39,7 @@ const SYSTEMS: SystemBlock[] = [
     number: "04",
     title: "Dashboards That Show What Matters",
     bullets: [
-      "Clean dashboards",
+      "Clean, decision-focused dashboards",
       "Structured tracking",
       "Decision-ready reporting",
     ],

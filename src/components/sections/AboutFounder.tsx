@@ -3,12 +3,11 @@ import BulletList from "@/components/ui/BulletList";
 import PortraitPlaceholder from "@/components/ui/PortraitPlaceholder";
 
 const ABOUT_POINTS = [
-  "Built and shipped real systems for D2C brands",
-  "Operations-first thinking",
-  "No hype",
-  "Long-term operational clarity",
-  "Based in Germany, focused on the Indian D2C market",
-  "Built for scaling Indian D2C brands",
+  "Built and deployed backend systems for real D2C operations",
+  "Operations-first, not tool-first",
+  "Focused on revenue leakage and system clarity",
+  "No hype. No random automations",
+  "Based in Germany, working with Shopify D2C brands",
 ];
 
 export default function AboutFounder() {
@@ -18,10 +17,7 @@ export default function AboutFounder() {
         <div className="grid md:grid-cols-5 gap-8 md:gap-16 items-start">
           {/* Left — Content */}
           <div className="md:col-span-3">
-            <SectionHeading
-              label="About"
-              heading="Why MonPro-AI Exists"
-            />
+            <SectionHeading label="About" heading="Why MonPro-AI Exists" />
             <BulletList items={ABOUT_POINTS} />
           </div>
 
@@ -29,7 +25,7 @@ export default function AboutFounder() {
           <div className="md:col-span-2 flex justify-center md:justify-end">
             <PortraitPlaceholder
               name="Paramveer Marwah"
-              subtitle="Founder, MonPro-AI"
+              subtitle="Backend Systems Architect for Shopify D2C"
               size="sm"
             />
           </div>

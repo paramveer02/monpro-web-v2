@@ -7,7 +7,7 @@ const NAV_LINKS = [
   { label: "Systems", href: "#systems" },
   { label: "Process", href: "#process" },
   { label: "About", href: "#about" },
-  { label: "Proof", href: "#proof" },
+  { label: "Results", href: "#results" },
 ];
 
 export default function Navbar() {
@@ -55,8 +55,8 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Button variant="primary" href="#get-started">
-            Free Audit
+          <Button variant="primary" href="#contact">
+            Get in Touch
           </Button>
         </div>
 
@@ -91,8 +91,8 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button variant="primary" href="#get-started">
-              Free Audit
+            <Button variant="primary" href="#contact">
+              Get in Touch
             </Button>
           </div>
         </div>

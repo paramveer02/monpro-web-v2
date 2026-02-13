@@ -5,7 +5,7 @@ const FOOTER_LINKS = {
     { label: "Systems", href: "#systems" },
     { label: "Process", href: "#process" },
     { label: "About", href: "#about" },
-    { label: "Proof", href: "#proof" },
+    { label: "Results", href: "#results" },
   ],
   connect: [
     {
@@ -29,8 +29,8 @@ export default function Footer() {
               Get in touch
             </h2>
             <p className="text-text-secondary text-sm mb-6 sm:mb-8">
-              Describe your backend challenge. I’ll review it personally and
-              respond directly.
+              Describe your backend challenge. I review every submission
+              personally and respond directly.
             </p>
             <ContactForm />
           </div>
@@ -48,11 +48,10 @@ export default function Footer() {
                 </span>
               </div>
               <span className="text-text-muted font-mono text-xs sm:text-sm mt-1">
-                Shopify Systems for Scaling D2C Brands
+                Backend Systems for Scaling Shopify D2C Brands
               </span>
               <p className="text-text-secondary text-sm mt-3 max-w-xs">
-                AI-driven backend systems for Shopify D2C brands. No hype. Just
-                systems that work.
+                No hype. Just systems that work.
               </p>
             </div>
 
@@ -96,37 +95,6 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-
-            {/* Calendly CTA */}
-            <div className="rounded-xl border border-border bg-bg-card p-4 sm:p-6">
-              <p className="text-text-primary font-semibold text-sm mb-2">
-                Prefer a live call?
-              </p>
-              <p className="text-text-secondary text-sm mb-4">
-                Book a free 30-minute backend audit.
-              </p>
-              <a
-                href="https://calendly.com/paramvir-marwah/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-accent text-sm font-medium hover:text-accent-hover transition-colors"
-              >
-                Schedule on Calendly
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                  />
-                </svg>
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -137,13 +105,36 @@ export default function Footer() {
           <p className="text-text-muted text-xs">
             &copy; {new Date().getFullYear()} MonPro-AI. All rights reserved.
           </p>
-          <div className="flex items-center gap-5 sm:gap-6">
+
+          <div className="flex flex-wrap items-center gap-5 sm:gap-6">
+            <a
+              href="/privacy-policy"
+              className="text-text-muted text-xs hover:text-text-secondary transition-colors"
+            >
+              Privacy Policy
+            </a>
+
+            <a
+              href="/terms"
+              className="text-text-muted text-xs hover:text-text-secondary transition-colors"
+            >
+              Terms
+            </a>
+
+            <a
+              href="/disclaimer"
+              className="text-text-muted text-xs hover:text-text-secondary transition-colors"
+            >
+              Disclaimer
+            </a>
+
             <a
               href="mailto:service@monpro-ai.com"
               className="text-text-muted text-xs hover:text-text-secondary transition-colors py-1 min-h-[44px] flex items-center"
             >
               service@monpro-ai.com
             </a>
+
             <a
               href="https://wa.me/4917643835327"
               target="_blank"

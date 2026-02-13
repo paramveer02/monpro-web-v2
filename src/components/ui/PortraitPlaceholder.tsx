@@ -6,10 +6,13 @@ interface PortraitPlaceholderProps {
 
 export default function PortraitPlaceholder({
   name = "Paramveer Marwah",
-  subtitle = "AI Systems Architect for Shopify",
+  subtitle = "Shopify Ops Systems Architect",
   size = "lg",
 }: PortraitPlaceholderProps) {
-  const dimensions = size === "lg" ? "w-48 sm:w-64 h-64 sm:h-80 md:w-72 md:h-96" : "w-36 sm:w-48 h-48 sm:h-60";
+  const dimensions =
+    size === "lg"
+      ? "w-48 sm:w-64 h-64 sm:h-80 md:w-72 md:h-96"
+      : "w-36 sm:w-48 h-48 sm:h-60";
 
   return (
     <div className="flex flex-col items-center gap-4">
@@ -33,7 +36,9 @@ export default function PortraitPlaceholder({
       </div>
       {/* Name + role */}
       <div className="text-center">
-        <p className="text-text-primary font-semibold text-base sm:text-lg">{name}</p>
+        <p className="text-text-primary font-semibold text-base sm:text-lg">
+          {name}
+        </p>
         <p className="text-text-muted text-xs sm:text-sm">{subtitle}</p>
       </div>
     </div>

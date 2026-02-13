@@ -17,7 +17,7 @@ const jetbrains = JetBrains_Mono({
 
 /* ── SEO Metadata ── */
 export const metadata: Metadata = {
-  title: "MonPro-AI | AI Backend Systems for Shopify D2C Brands",
+  title: "MonPro-AI | Smart Systems for Shopify D2C Brands",
   description:
     "MonPro-AI designs AI-driven backend systems for Shopify fashion brands. COD verification, revenue leak detection, operational automation, and decision dashboards.",
   keywords: [
@@ -31,26 +31,38 @@ export const metadata: Metadata = {
     "MonPro-AI",
     "Paramveer Marwah",
   ],
-  authors: [{ name: "Paramveer Marwah", url: "https://www.linkedin.com/in/paramveer-marwah/" }],
+  authors: [
+    {
+      name: "Paramveer Marwah",
+      url: "https://www.linkedin.com/in/paramveer-marwah/",
+    },
+  ],
   creator: "MonPro-AI",
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://monpro-ai.com",
     siteName: "MonPro-AI",
-    title: "MonPro-AI | AI Backend Systems for Shopify D2C Brands",
+    title: "MonPro-AI | Smart Systems for Shopify D2C Brands",
     description:
-      "Backend systems consulting for Shopify fashion brands. COD verification, revenue leak detection, and operational automation.",
+      "SHOPIFY OPERATIONS SYSTEMS for Shopify fashion brands. COD verification, revenue leak detection, and operational automation.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MonPro-AI | AI Backend Systems for Shopify D2C Brands",
+    title: "MonPro-AI | Smart Systems for Shopify D2C Brands",
     description:
-      "Backend systems consulting for Shopify fashion brands. COD verification, revenue leak detection, and operational automation.",
+      "SHOPIFY OPERATIONS SYSTEMS for Shopify fashion brands. COD verification, revenue leak detection, and operational automation.",
   },
   robots: {
     index: true,
     follow: true,
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+    shortcut: "/favicon.ico",
   },
 };
 
@@ -70,9 +82,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrains.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
-      </body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }

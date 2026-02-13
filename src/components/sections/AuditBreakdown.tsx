@@ -13,13 +13,12 @@ const DELIVERABLES = [
     number: "02",
     title: "Operations Snapshot",
     description:
-      "A clear picture of where your team\u2019s time is going and which tasks should be automated first.",
+      "A clear breakdown of where your team’s time goes and what should be automated first.",
   },
   {
     number: "03",
     title: "Custom Action Plan",
-    description:
-      "A prioritized list of exactly what to fix, in what order, and what results to expect.",
+    description: "A prioritized execution roadmap with expected impact.",
   },
 ];
 
@@ -55,7 +54,7 @@ export default function AuditBreakdown() {
 
         {/* Reassurance line */}
         <p className="text-center text-text-muted text-sm mb-10 sm:mb-14">
-          30 minutes. On a call. No cost. No obligation.
+          30-minute strategy call. No cost. No obligation.
         </p>
 
         {/* Inline intake form */}
