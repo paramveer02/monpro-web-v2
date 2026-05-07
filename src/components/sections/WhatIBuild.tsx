@@ -35,7 +35,7 @@ export default function WhatIBuild() {
         <SectionHeading
           label="WHAT I BUILD"
           heading="Systems, not prompts."
-          description="Three years as a software developer before this. Below is the kind of work I ship — concrete, not theoretical."
+          description="Five years as a software developer before this. Below is the kind of work I ship — concrete, not theoretical."
         />
 
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">

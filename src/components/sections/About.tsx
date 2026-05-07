@@ -9,7 +9,7 @@ export default function About() {
 
           <div className="space-y-5 text-text-secondary text-base sm:text-lg leading-relaxed">
             <p>
-              I&apos;m Paramveer. Three years building software, the last year
+              I&apos;m Paramveer. Five years building software, the last year
               deep into AI automation — n8n, LLM workflows, Shopify systems,
               WhatsApp tooling. I started MonPro-AI because most &quot;AI
               consultants&quot; are selling tools they&apos;ve never operated. I
