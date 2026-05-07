@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "@/styles/globals.css";
 
-/* ── Fonts ── */
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -15,21 +14,20 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
-/* ── SEO Metadata ── */
 export const metadata: Metadata = {
-  title: "MonPro-AI | Smart Systems for Shopify D2C Brands",
+  title: "MonPro-AI — Paramveer Marwah | AI Automation for Founder-Led Teams",
   description:
-    "MonPro-AI designs AI-driven backend systems for Shopify fashion brands. COD verification, revenue leak detection, operational automation, and decision dashboards.",
+    "Independent AI automation consultancy. Currently in discovery phase, talking to founders of small agencies and Shopify merchants to understand where AI actually helps. Run by Paramveer Marwah, developer based in Leipzig.",
   keywords: [
-    "Shopify backend automation",
-    "COD verification",
-    "D2C operations",
-    "revenue leak detection",
-    "Shopify AI systems",
-    "Indian D2C brands",
-    "ecommerce backend",
+    "AI automation",
+    "n8n workflows",
+    "Shopify integrations",
+    "founder-led agency",
+    "workflow automation",
+    "WhatsApp business",
     "MonPro-AI",
     "Paramveer Marwah",
+    "Leipzig",
   ],
   authors: [
     {
@@ -40,18 +38,18 @@ export const metadata: Metadata = {
   creator: "MonPro-AI",
   openGraph: {
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     url: "https://monpro-ai.com",
     siteName: "MonPro-AI",
-    title: "MonPro-AI | Smart Systems for Shopify D2C Brands",
+    title: "MonPro-AI — Paramveer Marwah | AI Automation for Founder-Led Teams",
     description:
-      "SHOPIFY OPERATIONS SYSTEMS for Shopify fashion brands. COD verification, revenue leak detection, and operational automation.",
+      "Independent AI automation consultancy. Talking to founders of small agencies and Shopify merchants. Run by Paramveer Marwah.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MonPro-AI | Smart Systems for Shopify D2C Brands",
+    title: "MonPro-AI — Paramveer Marwah | AI Automation for Founder-Led Teams",
     description:
-      "SHOPIFY OPERATIONS SYSTEMS for Shopify fashion brands. COD verification, revenue leak detection, and operational automation.",
+      "Independent AI automation consultancy. Talking to founders of small agencies and Shopify merchants. Run by Paramveer Marwah.",
   },
   robots: {
     index: true,
@@ -74,7 +72,6 @@ export const viewport: Viewport = {
   themeColor: "#0B0B0B",
 };
 
-/* ── Root Layout ── */
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -1,10 +1,9 @@
 import Button from "@/components/ui/Button";
-import PortraitPlaceholder from "@/components/ui/PortraitPlaceholder";
 
 export default function Hero() {
   return (
     <section className="relative min-h-[100svh] flex items-center pt-20 pb-12">
-      {/* Subtle top-left accent glow — clamped to prevent overflow */}
+      {/* Subtle top-left accent glow */}
       <div
         className="absolute top-0 left-0 w-[min(600px,100vw)] h-[min(600px,100vh)] opacity-[0.04] pointer-events-none overflow-hidden"
         style={{
@@ -15,44 +14,42 @@ export default function Hero() {
       />
 
       <div className="section-container w-full">
-        <div className="grid md:grid-cols-5 gap-8 md:gap-16 items-center">
-          {/* Left — Copy */}
-          <div className="md:col-span-3">
-            <p className="text-accent text-xs font-mono uppercase tracking-[0.2em] mb-4 sm:mb-6">
-              SHOPIFY OPERATIONS SYSTEMS
-            </p>
+        <div className="max-w-3xl">
+          <p className="text-accent text-xs font-mono uppercase tracking-[0.2em] mb-4 sm:mb-6 animate-fade-in">
+            AI AUTOMATION · IN DISCOVERY
+          </p>
 
-            <h1 className="text-display-mobile sm:text-display-sm md:text-display text-text-primary font-bold mb-4 sm:mb-6">
-              Your marketing isn&apos;t the problem.{" "}
-              <span className="text-accent">Your backend is leaking.</span>
-            </h1>
+          <h1 className="text-display-mobile sm:text-display-sm md:text-display text-text-primary font-bold mb-4 sm:mb-6 animate-slide-up">
+            Talking to founders.{" "}
+            <span className="text-accent">Building what actually helps.</span>
+          </h1>
 
-            <p className="text-text-secondary text-base sm:text-lg md:text-xl leading-relaxed max-w-xl mb-8 sm:mb-10">
-              I build backend systems for Shopify fashion brands to reduce COD
-              losses, prevent revenue leaks, and remove manual ops.
-            </p>
+          <p className="text-text-secondary text-base sm:text-lg md:text-xl leading-relaxed max-w-xl mb-8 sm:mb-10 animate-slide-up">
+            I&apos;m a developer turned AI consultant. Right now I&apos;m in conversation
+            with founders of small agencies and Shopify merchants to understand
+            where AI workflows actually move the needle — and where they&apos;re hype.
+          </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Button
-                variant="primary"
-                href="https://calendly.com/paramvir-marwah/30min"
-              >
-                Book Your Free Backend Audit
-              </Button>
-              <Button variant="secondary" href="#systems">
-                See the Systems
-              </Button>
-            </div>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-10 animate-slide-up">
+            <Button
+              variant="primary"
+              href="https://calendly.com/paramvir-marwah/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a 20-min conversation
+            </Button>
+            <a
+              href="#notes"
+              className="text-text-secondary text-sm hover:text-text-primary transition-colors duration-200 flex items-center gap-1 py-3"
+            >
+              Read the notes →
+            </a>
           </div>
 
-          {/* Right — Portrait (hidden on very small screens, shown from sm up) */}
-          <div className="hidden sm:flex md:col-span-2 justify-center md:justify-end">
-            <PortraitPlaceholder
-              name="Paramveer Marwah"
-              subtitle="Shopify Ops Systems Architect"
-              size="lg"
-            />
-          </div>
+          <p className="text-text-muted font-mono text-xs sm:text-sm tracking-wide animate-fade-in">
+            Paramveer Marwah · Leipzig, Germany
+          </p>
         </div>
       </div>
     </section>

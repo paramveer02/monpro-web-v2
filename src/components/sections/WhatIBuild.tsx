@@ -1,85 +1,55 @@
 import SectionHeading from "@/components/ui/SectionHeading";
 
-/* ── System block data ── */
-interface SystemBlock {
-  number: string;
+interface PrimitiveCard {
   title: string;
-  bullets: string[];
+  description: string;
 }
 
-const SYSTEMS: SystemBlock[] = [
+const PRIMITIVES: PrimitiveCard[] = [
   {
-    number: "01",
-    title: "COD Verification That Runs Itself",
-    bullets: [
-      "WhatsApp confirmation flows",
-      "RTO risk filtering logic",
-      "Real-time order tagging in Shopify",
-    ],
+    title: "Workflow automation",
+    description:
+      "n8n and Make pipelines connecting CRMs, spreadsheets, messaging, and LLMs. Built for reliability, not demos.",
   },
   {
-    number: "02",
-    title: "Find Where You\u2019re Losing Money",
-    bullets: [
-      "End-to-end order lifecycle tracking",
-      "RTO pattern analysis",
-      "Automated alerts",
-    ],
+    title: "Shopify integrations",
+    description:
+      "Order tagging, inventory sync, post-purchase flows, custom admin actions. API-level work, not app-store glue.",
   },
   {
-    number: "03",
-    title: "Operations on Autopilot",
-    bullets: [
-      "Custom workflow automation (Shopify + WhatsApp + CRM)",
-      "Order state management",
-      "Backend workflows",
-    ],
+    title: "Conversational interfaces",
+    description:
+      "WhatsApp Business and chat workflows that handle real operational logic — qualification, routing, follow-up.",
   },
   {
-    number: "04",
-    title: "Dashboards That Show What Matters",
-    bullets: [
-      "Clean, decision-focused dashboards",
-      "Structured tracking",
-      "Decision-ready reporting",
-    ],
+    title: "Internal tooling",
+    description:
+      "Lightweight dashboards and ops tools. Replacing spreadsheets and manual handoffs with systems your team trusts.",
   },
 ];
 
 export default function WhatIBuild() {
   return (
-    <section id="systems" className="section-padding section-divider">
+    <section id="build" className="section-padding section-divider">
       <div className="section-container">
         <SectionHeading
-          label="What you get"
-          heading="Backend Systems. Not Random Automations."
+          label="WHAT I BUILD"
+          heading="Systems, not prompts."
+          description="Three years as a software developer before this. Below is the kind of work I ship — concrete, not theoretical."
         />
 
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
-          {SYSTEMS.map((system) => (
+          {PRIMITIVES.map((card) => (
             <div
-              key={system.number}
+              key={card.title}
               className="rounded-xl border border-border bg-bg-card p-5 sm:p-6 md:p-8 hover:border-accent-border transition-colors duration-300"
             >
-              {/* Number + Title */}
-              <div className="flex items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-                <span className="text-accent font-mono text-sm opacity-50">
-                  {system.number}
-                </span>
-                <h3 className="text-text-primary font-semibold text-base sm:text-lg">
-                  {system.title}
-                </h3>
-              </div>
-
-              {/* Bullets */}
-              <ul className="space-y-3 ml-7 sm:ml-9">
-                {system.bullets.map((bullet, i) => (
-                  <li key={i} className="bullet-item">
-                    <span className="bullet-dot" aria-hidden="true" />
-                    <span>{bullet}</span>
-                  </li>
-                ))}
-              </ul>
+              <h3 className="text-text-primary font-semibold text-base sm:text-lg mb-3">
+                {card.title}
+              </h3>
+              <p className="text-text-secondary text-sm sm:text-base leading-relaxed">
+                {card.description}
+              </p>
             </div>
           ))}
         </div>

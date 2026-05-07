@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 import Button from "@/components/ui/Button";
 
 const NAV_LINKS = [
-  { label: "Systems", href: "#systems" },
-  { label: "Process", href: "#process" },
+  { label: "Work", href: "#build" },
+  { label: "Notes", href: "/notes" },
   { label: "About", href: "#about" },
-  { label: "Results", href: "#results" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
     >
       <div className="section-container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-1.5 group">
+        <a href="/" className="flex items-center gap-1.5 group">
           <div className="flex flex-col leading-tight">
             <div className="flex items-baseline gap-1.5">
               <span className="text-accent font-mono text-base sm:text-lg font-bold tracking-tight">
@@ -39,7 +39,7 @@ export default function Navbar() {
               <span className="text-text-muted font-mono text-base sm:text-lg">-AI</span>
             </div>
             <span className="text-text-muted font-mono text-[11px] sm:text-xs mt-0.5">
-              Shopify Systems for Scaling D2C Brands
+              Independent AI Automation · Leipzig
             </span>
           </div>
         </a>
@@ -55,8 +55,13 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Button variant="primary" href="#contact">
-            Get in Touch
+          <Button
+            variant="primary"
+            href="https://calendly.com/paramvir-marwah/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book a call
           </Button>
         </div>
 
@@ -91,8 +96,13 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button variant="primary" href="#contact">
-              Get in Touch
+            <Button
+              variant="primary"
+              href="https://calendly.com/paramvir-marwah/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a call
             </Button>
           </div>
         </div>

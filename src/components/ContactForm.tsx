@@ -78,7 +78,7 @@ export default function ContactForm() {
           type="email"
           required
           className="w-full rounded-lg border border-border bg-bg-secondary px-4 py-3 text-text-primary text-sm placeholder:text-text-muted focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-colors"
-          placeholder="you@brand.com"
+          placeholder="you@company.com"
         />
       </div>
 
@@ -95,7 +95,7 @@ export default function ContactForm() {
           name="phone"
           type="tel"
           className="w-full rounded-lg border border-border bg-bg-secondary px-4 py-3 text-text-primary text-sm placeholder:text-text-muted focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-colors"
-          placeholder="+91 98xxxxxxx"
+          placeholder="+49 / +44 / +91 ..."
         />
       </div>
 
@@ -105,14 +105,14 @@ export default function ContactForm() {
           htmlFor="brand"
           className="block text-text-secondary text-sm mb-2"
         >
-          Brand / Store URL
+          Company / Website (optional)
         </label>
         <input
           id="brand"
           name="brand"
           type="text"
           className="w-full rounded-lg border border-border bg-bg-secondary px-4 py-3 text-text-primary text-sm placeholder:text-text-muted focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-colors"
-          placeholder="yourbrand.in"
+          placeholder="yourcompany.com"
         />
       </div>
 
@@ -122,7 +122,7 @@ export default function ContactForm() {
           htmlFor="message"
           className="block text-text-secondary text-sm mb-2"
         >
-          What&apos;s your biggest backend problem?
+          What does your team do today that you wish was automated?
         </label>
         <textarea
           id="message"
@@ -130,7 +130,7 @@ export default function ContactForm() {
           rows={4}
           required
           className="w-full rounded-lg border border-border bg-bg-secondary px-4 py-3 text-text-primary text-sm placeholder:text-text-muted focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-colors resize-none"
-          placeholder="High RTO, manual verification, fragmented operations..."
+          placeholder="e.g. We copy client reports manually every week, our CRM doesn't talk to our inbox..."
         />
       </div>
 
