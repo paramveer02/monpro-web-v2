@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
 
           <p className="text-text-muted font-mono text-xs sm:text-sm tracking-wide animate-fade-in">
-            Paramveer Marwah · Leipzig, Germany
+            Paramvir Marwah · Leipzig, Germany
           </p>
         </div>
       </div>

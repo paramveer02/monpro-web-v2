@@ -4,7 +4,7 @@ import { notes } from "@/lib/notes";
 export const metadata: Metadata = {
   title: "Notes — MonPro-AI",
   description:
-    "Short pieces from ongoing founder conversations and technical breakdowns. By Paramveer Marwah.",
+    "Short pieces from ongoing founder conversations and technical breakdowns. By Paramvir Marwah.",
 };
 
 export default function NotesPage() {

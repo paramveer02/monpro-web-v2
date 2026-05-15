@@ -30,7 +30,7 @@ export const notes: Note[] = [
       title:
         "What I Automated for My Own Business — MonPro-AI Notes",
       description:
-        "What building automation for a real sourcing operation taught Paramveer Marwah about workflow design, handoffs, and practical AI consulting.",
+        "What building automation for a real sourcing operation taught Paramvir Marwah about workflow design, handoffs, and practical AI consulting.",
     },
     body: [
       "Before MonPro-AI, I helped run Navelie, a sourcing operation between Delhi and Europe. My mother handles the supplier side in India. I handle everything that touches a screen.",

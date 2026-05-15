@@ -1,0 +1,77 @@
+# Note 1 — What I Automated for My Own Business (and What It Taught Me About AI Consulting)
+
+Before MonPro-AI, I helped run Navelie — a sourcing operation between Delhi and Europe. My mother handles the supplier side in India. I handle everything that touches a screen.
+
+For a long time, "everything that touches a screen" meant a mess of WhatsApp threads, Google Sheets, and screenshots forwarded between two countries and three time zones. Orders got lost. Status updates were verbal. I was the bottleneck.
+
+So I built systems for it. Not because it was a portfolio piece. Because I was tired.
+
+Order intake moved into a structured form that auto-creates a row in a sheet, tags the supplier, and pings my mother on WhatsApp. Status updates flow back the same way — she replies to a message, n8n parses it, the sheet updates, the customer hears back. Inventory snapshots get pulled from supplier WhatsApp messages and dropped into a single dashboard I can check from anywhere.
+
+It's not glamorous. It's not "AI-first." Most of it is glue code, a few LLM calls, and a lot of n8n.
+
+But here is what it taught me, and why I am building MonPro-AI the way I am:
+
+The wins did not come from clever AI. They came from removing handoffs. Every place a human had to copy something from one tool to another was a place orders died. AI helped at three specific points — parsing messy WhatsApp text, summarising daily activity for me, and flagging anomalies. Maybe twenty percent of the system. The other eighty percent was workflow design.
+
+Most "AI consultants" sell the twenty percent and ignore the eighty. They drop in a chatbot, call it transformation, and move on. The chatbot fails because the workflow underneath it was broken to begin with.
+
+I would rather be the person who looks at the whole flow, finds the handoffs that are bleeding time and money, and then decides where AI actually earns its place.
+
+That is what I am offering when I ask founders for twenty minutes. Not a pitch. A look at where the leaks are.
+
+If you run a small business and you are the bottleneck — I have been there. I would like to hear about it.
+
+---
+
+# Note 2 — Why I Am Not Selling AI Agents Yet
+
+Every second post on my LinkedIn feed right now is someone selling AI agents. Custom GPTs. Auto-replying inboxes. Voice agents that "do the work of three SDRs."
+
+I am a developer. I have built these things. They mostly do not work the way the demos suggest.
+
+Not because the technology is bad. The technology is genuinely good. They do not work because they are being sold one layer too high. The agent is the visible part. Underneath it is a workflow, a data model, an integration surface, and a set of edge cases that the seller has not thought about and the buyer cannot evaluate.
+
+You buy the agent. Three weeks in, it is calling the wrong customers, replying with hallucinated order numbers, or quietly doing nothing because an API key expired. You blame the AI. The AI was never the problem.
+
+This is why I am not putting agents on my website yet.
+
+I would rather sit with a founder for twenty minutes and ask:
+
+Where in your day do you copy something from one place to another?
+What does your team do that you wish was already done by the time you woke up?
+What breaks when you go on holiday?
+
+Those questions tell me where automation is worth building. Some of the answers will involve AI. Some will not. A well-designed n8n workflow with no AI in it can save more hours than a poorly-deployed agent ever will.
+
+I am building MonPro-AI as a consulting practice that thinks operations first and tools second. The tools are the easy part. I have shipped enough of them to know that.
+
+The hard part is asking the right questions before anyone writes a single line of code. That is what I want to be paid for. Eventually.
+
+For now, I am asking those questions for free. If you are running a small team and feel held together by spreadsheets and goodwill, that is the conversation I want to have.
+
+No agents. No pitch. Just a look at what is actually broken.
+
+---
+
+# Note 3 — AI in E-Commerce Is About to Stop Being a Channel and Start Being a Customer
+
+I have been reading everything I can on agentic commerce for the last month. Some of what is happening is genuinely going to change how Shopify merchants operate within the next eighteen months. Most merchants I have spoken to have not registered it yet.
+
+Three things are converging.
+
+First, agentic checkout. ChatGPT's Instant Checkout went live in September 2025 and is now serving close to a billion weekly users. Google launched the Universal Commerce Protocol at NRF in January 2026, with Walmart, Target, and Shopify as launch partners. McKinsey projects three to five trillion dollars of global retail spend will route through AI agents by 2030. Bain estimates fifteen to twenty-five percent of online retail could flow through agentic channels by the end of the decade.
+
+What this actually means: your customer is increasingly not a human browsing your site. It is an AI agent comparing your product feed against ten others, in machine-readable form, in under a second. If your product data is messy, your delivery terms are unclear, or your returns policy is buried in a PDF, the agent skips you. The human never sees the choice.
+
+Second, voice. The US voice commerce market hit $22.4 billion in 2026. Roughly half of US consumers have used voice for some part of a shopping flow. Most of it is research, reorders, and order tracking — not first-time purchases. But for any merchant whose customers come back regularly, this is the channel where the next wave of repeat business is being captured or lost.
+
+Third, visual search. Around thirty-six percent of consumers have used it. Adoption is highest in the sixteen to thirty-four bracket. For categories where shoppers point at something they saw and want to find it — fashion, home, accessories — this is moving from gimmick to default expectation.
+
+Here is the part most merchants are not thinking about.
+
+You do not win this by adding features. You win it by making your store legible to machines. Clean structured data. Consistent product attributes. Real-time inventory APIs. Delivery and returns terms that an agent can parse without ambiguity.
+
+This is not glamorous work. It is backend hygiene. But the merchants who do it now will be the ones AI agents pick eighteen months from now. The ones who do not will quietly disappear from a channel they did not know they were competing in.
+
+I am paying close attention to this. If you run a Shopify store and you want to think out loud about where this lands for your category, that is exactly the kind of conversation I am having right now.

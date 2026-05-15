@@ -42,7 +42,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="text-text-primary hover:text-accent transition-colors duration-200"
                 >
-                  paramveer-marwah
+                  Paramvir-marwah
                 </a>
               </p>
             </div>

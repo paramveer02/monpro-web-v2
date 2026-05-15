@@ -15,9 +15,9 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MonPro-AI — Paramveer Marwah | AI Automation for Founder-Led Teams",
+  title: "MonPro-AI — Paramvir Marwah | AI Automation for Founder-Led Teams",
   description:
-    "Independent AI automation consultancy. Currently in discovery phase, talking to founders of small agencies and Shopify merchants to understand where AI actually helps. Run by Paramveer Marwah, developer based in Leipzig.",
+    "Independent AI automation consultancy. Currently in discovery phase, talking to founders of small agencies and Shopify merchants to understand where AI actually helps. Run by Paramvir Marwah, developer based in Leipzig.",
   keywords: [
     "AI automation",
     "n8n workflows",
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     "workflow automation",
     "WhatsApp business",
     "MonPro-AI",
-    "Paramveer Marwah",
+    "Paramvir Marwah",
     "Leipzig",
   ],
   authors: [
     {
-      name: "Paramveer Marwah",
+      name: "Paramvir Marwah",
       url: "https://www.linkedin.com/in/paramveer-marwah/",
     },
   ],
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://monpro-ai.com",
     siteName: "MonPro-AI",
-    title: "MonPro-AI — Paramveer Marwah | AI Automation for Founder-Led Teams",
+    title: "MonPro-AI — Paramvir Marwah | AI Automation for Founder-Led Teams",
     description:
-      "Independent AI automation consultancy. Talking to founders of small agencies and Shopify merchants. Run by Paramveer Marwah.",
+      "Independent AI automation consultancy. Talking to founders of small agencies and Shopify merchants. Run by Paramvirr Marwah.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MonPro-AI — Paramveer Marwah | AI Automation for Founder-Led Teams",
+    title: "MonPro-AI — Paramvir Marwah | AI Automation for Founder-Led Teams",
     description:
-      "Independent AI automation consultancy. Talking to founders of small agencies and Shopify merchants. Run by Paramveer Marwah.",
+      "Independent AI automation consultancy. Talking to founders of small agencies and Shopify merchants. Run by Paramvir Marwah.",
   },
   robots: {
     index: true,

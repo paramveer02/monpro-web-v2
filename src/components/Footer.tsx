@@ -56,7 +56,7 @@ export default function Footer() {
       <div className="border-t border-border">
         <div className="section-container py-5">
           <p className="text-text-muted text-xs">
-            &copy; 2026 MonPro-AI · Paramveer Marwah
+            &copy; 2026 MonPro-AI · Paramvir Marwah
           </p>
         </div>
       </div>
