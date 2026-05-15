@@ -37,7 +37,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Book a 20-min conversation
+              Book a 30-min conversation
             </Button>
             <a
               href="#notes"

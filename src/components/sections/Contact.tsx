@@ -9,7 +9,7 @@ export default function Contact() {
         <SectionHeading
           label="CONTACT"
           heading="Let's talk."
-          description="20 minutes. No pitch. No charge. Just a conversation about your operations."
+          description="30 minutes. No pitch. No charge. Just a conversation about your operations."
         />
 
         <div className="grid md:grid-cols-2 gap-10 md:gap-24 items-start">
@@ -21,7 +21,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Book a 20-min call
+              Book a 30-min call
             </Button>
 
             <div className="mt-8 space-y-3">
